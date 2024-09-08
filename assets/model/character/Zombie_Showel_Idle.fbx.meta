@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "10298197-2154-4029-bd69-21988188c089",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "cbc2b": {
+      "importer": "gltf-animation",
+      "uuid": "10298197-2154-4029-bd69-21988188c089@cbc2b",
+      "displayName": "",
+      "id": "cbc2b",
+      "name": "Scene.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "4328d": {
+      "importer": "gltf-scene",
+      "uuid": "10298197-2154-4029-bd69-21988188c089@4328d",
+      "displayName": "",
+      "id": "4328d",
+      "name": "Zombie_Showel_Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Scene",
+        "duration": 3,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Scene",
+            "from": 0,
+            "to": 3,
+            "wrapMode": 2,
+            "previousId": "cbc2b"
+          }
+        ]
+      }
+    ],
+    "redirect": "10298197-2154-4029-bd69-21988188c089@4328d",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "10298197-2154-4029-bd69-21988188c089@4328d"
+      ]
+    }
+  }
+}

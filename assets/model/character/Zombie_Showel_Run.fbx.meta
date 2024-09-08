@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d8157e15-bb7e-4447-9dcc-3ea116925ba2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "cbc2b": {
+      "importer": "gltf-animation",
+      "uuid": "d8157e15-bb7e-4447-9dcc-3ea116925ba2@cbc2b",
+      "displayName": "",
+      "id": "cbc2b",
+      "name": "showel_run.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.800000011920929
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6dd52": {
+      "importer": "gltf-scene",
+      "uuid": "d8157e15-bb7e-4447-9dcc-3ea116925ba2@6dd52",
+      "displayName": "",
+      "id": "6dd52",
+      "name": "Zombie_Showel_Run.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Scene",
+        "duration": 0.800000011920929,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "showel_run",
+            "from": 0,
+            "to": 0.800000011920929,
+            "wrapMode": 2,
+            "previousId": "cbc2b"
+          }
+        ]
+      }
+    ],
+    "redirect": "d8157e15-bb7e-4447-9dcc-3ea116925ba2@6dd52",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d8157e15-bb7e-4447-9dcc-3ea116925ba2@6dd52"
+      ]
+    }
+  }
+}

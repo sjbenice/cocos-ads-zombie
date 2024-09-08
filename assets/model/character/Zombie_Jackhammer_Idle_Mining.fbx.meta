@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ef36b1e2-00ba-4f02-890c-b0894f9ded50",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "cbc2b": {
+      "importer": "gltf-animation",
+      "uuid": "ef36b1e2-00ba-4f02-890c-b0894f9ded50@cbc2b",
+      "displayName": "",
+      "id": "cbc2b",
+      "name": "Scene.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.800000011920929
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "e6924": {
+      "importer": "gltf-scene",
+      "uuid": "ef36b1e2-00ba-4f02-890c-b0894f9ded50@e6924",
+      "displayName": "",
+      "id": "e6924",
+      "name": "Zombie_Jackhammer_Idle_Mining.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Scene",
+        "duration": 0.800000011920929,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Scene",
+            "from": 0,
+            "to": 0.800000011920929,
+            "wrapMode": 2,
+            "previousId": "cbc2b"
+          }
+        ]
+      }
+    ],
+    "redirect": "ef36b1e2-00ba-4f02-890c-b0894f9ded50@e6924",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "ef36b1e2-00ba-4f02-890c-b0894f9ded50@e6924"
+      ]
+    }
+  }
+}

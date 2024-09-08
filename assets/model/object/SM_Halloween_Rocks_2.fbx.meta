@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "337cf857-3ccc-4a07-895e-380910acf6a8",
+  "files": [],
+  "subMetas": {
+    "f5c30": {
+      "importer": "gltf-mesh",
+      "uuid": "337cf857-3ccc-4a07-895e-380910acf6a8@f5c30",
+      "displayName": "",
+      "id": "f5c30",
+      "name": "HalloweenAssetsRocks_hallowwen11_001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 229
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e259c": {
+      "importer": "gltf-material",
+      "uuid": "337cf857-3ccc-4a07-895e-380910acf6a8@e259c",
+      "displayName": "",
+      "id": "e259c",
+      "name": "MM_Tree_Rocks.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d3054": {
+      "importer": "gltf-scene",
+      "uuid": "337cf857-3ccc-4a07-895e-380910acf6a8@d3054",
+      "displayName": "",
+      "id": "d3054",
+      "name": "SM_Halloween_Rocks_2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "337cf857-3ccc-4a07-895e-380910acf6a8@d3054",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "337cf857-3ccc-4a07-895e-380910acf6a8@f5c30"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "337cf857-3ccc-4a07-895e-380910acf6a8@e259c"
+      ],
+      "scenes": [
+        "337cf857-3ccc-4a07-895e-380910acf6a8@d3054"
+      ]
+    }
+  }
+}

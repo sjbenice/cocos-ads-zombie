@@ -1,0 +1,147 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6d837239-0a3c-4901-975d-83bae16cac7d",
+  "files": [],
+  "subMetas": {
+    "139f9": {
+      "importer": "gltf-mesh",
+      "uuid": "6d837239-0a3c-4901-975d-83bae16cac7d@139f9",
+      "displayName": "",
+      "id": "139f9",
+      "name": "Cliff2_collision_1.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 805
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96c6b": {
+      "importer": "gltf-embeded-image",
+      "uuid": "6d837239-0a3c-4901-975d-83bae16cac7d@96c6b",
+      "displayName": "",
+      "id": "96c6b",
+      "name": "T_Cliff2_2D_View256.png.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "3ce21": {
+      "importer": "texture",
+      "uuid": "6d837239-0a3c-4901-975d-83bae16cac7d@3ce21",
+      "displayName": "",
+      "id": "3ce21",
+      "name": "T_Cliff2_2D_View256.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6d837239-0a3c-4901-975d-83bae16cac7d@96c6b"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "77d1b": {
+      "importer": "gltf-material",
+      "uuid": "6d837239-0a3c-4901-975d-83bae16cac7d@77d1b",
+      "displayName": "",
+      "id": "77d1b",
+      "name": "MM_Cliff2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "31b57": {
+      "importer": "gltf-scene",
+      "uuid": "6d837239-0a3c-4901-975d-83bae16cac7d@31b57",
+      "displayName": "",
+      "id": "31b57",
+      "name": "Cliff.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "T_Cliff2_2D_View256.png",
+        "uri": "6d837239-0a3c-4901-975d-83bae16cac7d@96c6b"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "6d837239-0a3c-4901-975d-83bae16cac7d@31b57",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6d837239-0a3c-4901-975d-83bae16cac7d@139f9"
+      ],
+      "skeletons": [],
+      "textures": [
+        "6d837239-0a3c-4901-975d-83bae16cac7d@3ce21"
+      ],
+      "materials": [
+        "6d837239-0a3c-4901-975d-83bae16cac7d@77d1b"
+      ],
+      "scenes": [
+        "6d837239-0a3c-4901-975d-83bae16cac7d@31b57"
+      ]
+    }
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8",
+  "files": [],
+  "subMetas": {
+    "33714": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@33714",
+      "displayName": "",
+      "id": "33714",
+      "name": "T_vanila_tractor256.png.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "ea143": {
+      "importer": "gltf-mesh",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@ea143",
+      "displayName": "",
+      "id": "ea143",
+      "name": "bucket.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 400
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbdf8": {
+      "importer": "gltf-mesh",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@cbdf8",
+      "displayName": "",
+      "id": "cbdf8",
+      "name": "vanila_tractor_2.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 5181
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 12
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "37ef9": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@37ef9",
+      "displayName": "",
+      "id": "37ef9",
+      "name": "T_vanila_tractor_tracks.PNG.image",
+      "userData": {
+        "gltfIndex": 1,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "413da": {
+      "importer": "texture",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@413da",
+      "displayName": "",
+      "id": "413da",
+      "name": "T_vanila_tractor256.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@33714"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "431ee": {
+      "importer": "texture",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@431ee",
+      "displayName": "",
+      "id": "431ee",
+      "name": "T_vanila_tractor_tracks.PNG.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@37ef9"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9053f": {
+      "importer": "gltf-material",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@9053f",
+      "displayName": "",
+      "id": "9053f",
+      "name": "Tractor_Main.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a703": {
+      "importer": "gltf-material",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@7a703",
+      "displayName": "",
+      "id": "7a703",
+      "name": "Tractor_Tracks.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "36b64": {
+      "importer": "gltf-scene",
+      "uuid": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@36b64",
+      "displayName": "",
+      "id": "36b64",
+      "name": "Tractor.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "T_vanila_tractor256.png",
+        "uri": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@33714"
+      },
+      {
+        "name": "T_vanila_tractor_tracks.PNG",
+        "uri": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@37ef9"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "9ccd112d-a382-4637-8d50-6bdea3dd81d8@36b64",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "9ccd112d-a382-4637-8d50-6bdea3dd81d8@ea143",
+        "9ccd112d-a382-4637-8d50-6bdea3dd81d8@cbdf8"
+      ],
+      "skeletons": [
+        "9ccd112d-a382-4637-8d50-6bdea3dd81d8@438fe"
+      ],
+      "textures": [
+        "9ccd112d-a382-4637-8d50-6bdea3dd81d8@413da",
+        "9ccd112d-a382-4637-8d50-6bdea3dd81d8@431ee"
+      ],
+      "materials": [
+        "9ccd112d-a382-4637-8d50-6bdea3dd81d8@9053f",
+        "9ccd112d-a382-4637-8d50-6bdea3dd81d8@7a703"
+      ],
+      "scenes": [
+        "9ccd112d-a382-4637-8d50-6bdea3dd81d8@36b64"
+      ]
+    },
+    "materials": {
+      "9ccd112d-a382-4637-8d50-6bdea3dd81d8@9053f": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "f88c07c9-e8c5-4e44-afa2-e13137ac15a8@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 128,
+              "g": 128,
+              "b": 128,
+              "a": 255
+            },
+            "shininessExponent": 20.000000000000004,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 124,
+              "g": 124,
+              "b": 124,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      },
+      "9ccd112d-a382-4637-8d50-6bdea3dd81d8@7a703": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "eb9cda56-6167-4b47-8202-1254ad339314@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "shininessExponent": 20.000000000000004,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 124,
+              "g": 124,
+              "b": 124,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

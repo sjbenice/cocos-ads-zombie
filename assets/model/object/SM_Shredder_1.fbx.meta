@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "35033bed-c9f5-4c21-8944-d8895c4225f5",
+  "files": [],
+  "subMetas": {
+    "b6515": {
+      "importer": "gltf-mesh",
+      "uuid": "35033bed-c9f5-4c21-8944-d8895c4225f5@b6515",
+      "displayName": "",
+      "id": "b6515",
+      "name": "Shredder.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 620
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac849": {
+      "importer": "gltf-material",
+      "uuid": "35033bed-c9f5-4c21-8944-d8895c4225f5@ac849",
+      "displayName": "",
+      "id": "ac849",
+      "name": "MM_Shredder.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe7fb": {
+      "importer": "gltf-scene",
+      "uuid": "35033bed-c9f5-4c21-8944-d8895c4225f5@fe7fb",
+      "displayName": "",
+      "id": "fe7fb",
+      "name": "SM_Shredder_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "35033bed-c9f5-4c21-8944-d8895c4225f5@fe7fb",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "35033bed-c9f5-4c21-8944-d8895c4225f5@b6515"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "35033bed-c9f5-4c21-8944-d8895c4225f5@ac849"
+      ],
+      "scenes": [
+        "35033bed-c9f5-4c21-8944-d8895c4225f5@fe7fb"
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b886bf1b-f2a0-4a10-9bcb-d51c98dee584",
+  "files": [],
+  "subMetas": {
+    "2f6d1": {
+      "importer": "gltf-mesh",
+      "uuid": "b886bf1b-f2a0-4a10-9bcb-d51c98dee584@2f6d1",
+      "displayName": "",
+      "id": "2f6d1",
+      "name": "Cube.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 102
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0be58": {
+      "importer": "gltf-material",
+      "uuid": "b886bf1b-f2a0-4a10-9bcb-d51c98dee584@0be58",
+      "displayName": "",
+      "id": "0be58",
+      "name": "Gold.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b2594": {
+      "importer": "gltf-scene",
+      "uuid": "b886bf1b-f2a0-4a10-9bcb-d51c98dee584@b2594",
+      "displayName": "",
+      "id": "b2594",
+      "name": "gold_new_cutted.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "b886bf1b-f2a0-4a10-9bcb-d51c98dee584@b2594",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "b886bf1b-f2a0-4a10-9bcb-d51c98dee584@2f6d1"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "b886bf1b-f2a0-4a10-9bcb-d51c98dee584@0be58"
+      ],
+      "scenes": [
+        "b886bf1b-f2a0-4a10-9bcb-d51c98dee584@b2594"
+      ]
+    }
+  }
+}

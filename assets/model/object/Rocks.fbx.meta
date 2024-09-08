@@ -1,0 +1,301 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253",
+  "files": [],
+  "subMetas": {
+    "82628": {
+      "importer": "gltf-material",
+      "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253@82628",
+      "displayName": "",
+      "id": "82628",
+      "name": "Rocks.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8134f": {
+      "importer": "gltf-mesh",
+      "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253@8134f",
+      "displayName": "",
+      "id": "8134f",
+      "name": "RoundStones_1x1_1.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 193
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "710e9": {
+      "importer": "gltf-mesh",
+      "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253@710e9",
+      "displayName": "",
+      "id": "710e9",
+      "name": "RoundStones_1x2_1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 318
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8fba7": {
+      "importer": "gltf-mesh",
+      "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253@8fba7",
+      "displayName": "",
+      "id": "8fba7",
+      "name": "RoundStones_2x2_1.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 363
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "91f3a": {
+      "importer": "gltf-mesh",
+      "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253@91f3a",
+      "displayName": "",
+      "id": "91f3a",
+      "name": "RoundStones_2x3_1.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 395
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1adf9": {
+      "importer": "gltf-mesh",
+      "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253@1adf9",
+      "displayName": "",
+      "id": "1adf9",
+      "name": "RoundStones_3x4A_1.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 666
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6f3f1": {
+      "importer": "gltf-mesh",
+      "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253@6f3f1",
+      "displayName": "",
+      "id": "6f3f1",
+      "name": "RoundStones_3x4B_1.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 625
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0a4e8": {
+      "importer": "gltf-scene",
+      "uuid": "7556e99c-5e54-456b-bedf-b8c35696c253@0a4e8",
+      "displayName": "",
+      "id": "0a4e8",
+      "name": "Rocks.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "7556e99c-5e54-456b-bedf-b8c35696c253@0a4e8",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7556e99c-5e54-456b-bedf-b8c35696c253@8134f",
+        "7556e99c-5e54-456b-bedf-b8c35696c253@710e9",
+        "7556e99c-5e54-456b-bedf-b8c35696c253@8fba7",
+        "7556e99c-5e54-456b-bedf-b8c35696c253@91f3a",
+        "7556e99c-5e54-456b-bedf-b8c35696c253@1adf9",
+        "7556e99c-5e54-456b-bedf-b8c35696c253@6f3f1"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "7556e99c-5e54-456b-bedf-b8c35696c253@82628"
+      ],
+      "scenes": [
+        "7556e99c-5e54-456b-bedf-b8c35696c253@0a4e8"
+      ]
+    },
+    "materials": {
+      "7556e99c-5e54-456b-bedf-b8c35696c253@82628": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 247,
+              "g": 182,
+              "b": 218,
+              "a": 255
+            },
+            "albedoScale": {
+              "__type__": "cc.Vec3",
+              "x": 1.5,
+              "y": 1.5,
+              "z": 1.5
+            },
+            "roughness": 0.484,
+            "metallic": 0.057,
+            "specularIntensity": 0.065,
+            "mainTexture": {
+              "__uuid__": "feaafe42-7814-4206-be7e-9f2720374481@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ce7fc4aa-2473-4179-b91e-f28846d465ce",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "97a56": {
+      "importer": "gltf-mesh",
+      "uuid": "ce7fc4aa-2473-4179-b91e-f28846d465ce@97a56",
+      "displayName": "",
+      "id": "97a56",
+      "name": "vanila_tractor.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 5181
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "083c5": {
+      "importer": "gltf-animation",
+      "uuid": "ce7fc4aa-2473-4179-b91e-f28846d465ce@083c5",
+      "displayName": "",
+      "id": "083c5",
+      "name": "Unreal Take.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.299999952316284
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "ce7fc4aa-2473-4179-b91e-f28846d465ce@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 12
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9053f": {
+      "importer": "gltf-material",
+      "uuid": "ce7fc4aa-2473-4179-b91e-f28846d465ce@9053f",
+      "displayName": "",
+      "id": "9053f",
+      "name": "Tractor_Main.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a703": {
+      "importer": "gltf-material",
+      "uuid": "ce7fc4aa-2473-4179-b91e-f28846d465ce@7a703",
+      "displayName": "",
+      "id": "7a703",
+      "name": "Tractor_Tracks.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5fe94": {
+      "importer": "gltf-scene",
+      "uuid": "ce7fc4aa-2473-4179-b91e-f28846d465ce@5fe94",
+      "displayName": "",
+      "id": "5fe94",
+      "name": "vanila_tractor_Anim.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 3.299999952316284,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Unreal Take",
+            "from": 0,
+            "to": 3.299999952316284,
+            "wrapMode": 2,
+            "previousId": "083c5"
+          }
+        ]
+      }
+    ],
+    "redirect": "ce7fc4aa-2473-4179-b91e-f28846d465ce@5fe94",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "ce7fc4aa-2473-4179-b91e-f28846d465ce@97a56"
+      ],
+      "skeletons": [
+        "ce7fc4aa-2473-4179-b91e-f28846d465ce@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "ce7fc4aa-2473-4179-b91e-f28846d465ce@9053f",
+        "ce7fc4aa-2473-4179-b91e-f28846d465ce@7a703"
+      ],
+      "scenes": [
+        "ce7fc4aa-2473-4179-b91e-f28846d465ce@5fe94"
+      ]
+    },
+    "materials": {
+      "ce7fc4aa-2473-4179-b91e-f28846d465ce@9053f": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "f88c07c9-e8c5-4e44-afa2-e13137ac15a8@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "shininessExponent": 20,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 124,
+              "g": 124,
+              "b": 124,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      },
+      "ce7fc4aa-2473-4179-b91e-f28846d465ce@7a703": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "eb9cda56-6167-4b47-8202-1254ad339314@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "shininessExponent": 20,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 124,
+              "g": 124,
+              "b": 124,
+              "a": 255
+            }
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

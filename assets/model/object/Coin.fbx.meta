@@ -1,0 +1,173 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "70e49812-eb93-4646-a6c2-9746abba5444",
+  "files": [],
+  "subMetas": {
+    "2e1ee": {
+      "importer": "gltf-mesh",
+      "uuid": "70e49812-eb93-4646-a6c2-9746abba5444@2e1ee",
+      "displayName": "",
+      "id": "2e1ee",
+      "name": "Circle.019.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a424f": {
+      "importer": "gltf-material",
+      "uuid": "70e49812-eb93-4646-a6c2-9746abba5444@a424f",
+      "displayName": "",
+      "id": "a424f",
+      "name": "Coin1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b8b9": {
+      "importer": "gltf-scene",
+      "uuid": "70e49812-eb93-4646-a6c2-9746abba5444@4b8b9",
+      "displayName": "",
+      "id": "4b8b9",
+      "name": "Coin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "70e49812-eb93-4646-a6c2-9746abba5444@4b8b9",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "70e49812-eb93-4646-a6c2-9746abba5444@2e1ee"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "70e49812-eb93-4646-a6c2-9746abba5444@a424f"
+      ],
+      "scenes": [
+        "70e49812-eb93-4646-a6c2-9746abba5444@4b8b9"
+      ]
+    },
+    "materials": {
+      "70e49812-eb93-4646-a6c2-9746abba5444@a424f": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 2,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "a780de76-dba1-4167-9228-c6a84dd43e87@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 2,
+            "shininessExponent": 1,
+            "specularFactor": 0.25,
+            "transparencyFactor": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

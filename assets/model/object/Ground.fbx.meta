@@ -1,0 +1,205 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2329b3e4-7d86-4000-a7c7-80a3ac28e414",
+  "files": [],
+  "subMetas": {
+    "e5242": {
+      "importer": "gltf-mesh",
+      "uuid": "2329b3e4-7d86-4000-a7c7-80a3ac28e414@e5242",
+      "displayName": "",
+      "id": "e5242",
+      "name": "Boole.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 124
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d01cf": {
+      "importer": "gltf-material",
+      "uuid": "2329b3e4-7d86-4000-a7c7-80a3ac28e414@d01cf",
+      "displayName": "",
+      "id": "d01cf",
+      "name": "GroundMAT.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7621e": {
+      "importer": "gltf-scene",
+      "uuid": "2329b3e4-7d86-4000-a7c7-80a3ac28e414@7621e",
+      "displayName": "",
+      "id": "7621e",
+      "name": "Ground.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "2329b3e4-7d86-4000-a7c7-80a3ac28e414@7621e",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2329b3e4-7d86-4000-a7c7-80a3ac28e414@e5242"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "2329b3e4-7d86-4000-a7c7-80a3ac28e414@d01cf"
+      ],
+      "scenes": [
+        "2329b3e4-7d86-4000-a7c7-80a3ac28e414@7621e"
+      ]
+    },
+    "materials": {
+      "2329b3e4-7d86-4000-a7c7-80a3ac28e414@d01cf": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 14,
+              "y": 14,
+              "z": 0,
+              "w": 0
+            },
+            "specularIntensity": 0,
+            "emissive": {
+              "__type__": "cc.Color",
+              "r": 102,
+              "g": 71,
+              "b": 67,
+              "a": 255
+            },
+            "mainTexture": {
+              "__uuid__": "f0cbd4bf-b63e-4622-963a-82a2f3754f4b@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

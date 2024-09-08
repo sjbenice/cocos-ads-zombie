@@ -1,0 +1,198 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63",
+  "files": [],
+  "subMetas": {
+    "98e66": {
+      "importer": "gltf-mesh",
+      "uuid": "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@98e66",
+      "displayName": "",
+      "id": "98e66",
+      "name": "Zombie_1gr.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2657
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 24
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bde62": {
+      "importer": "gltf-material",
+      "uuid": "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@bde62",
+      "displayName": "",
+      "id": "bde62",
+      "name": "Zombie_1gr.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "10d4e": {
+      "importer": "gltf-scene",
+      "uuid": "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@10d4e",
+      "displayName": "",
+      "id": "10d4e",
+      "name": "Zombie_1gr.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@10d4e",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@98e66"
+      ],
+      "skeletons": [
+        "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@bde62"
+      ],
+      "scenes": [
+        "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@10d4e"
+      ]
+    },
+    "materials": {
+      "f8f13106-60bb-48cb-b5d7-e8c71f6e9d63@bde62": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "22b4d77a-e9ae-4520-abf9-6ca78546e5f2@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 1.2,
+            "shininessExponent": 30,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 231,
+              "g": 231,
+              "b": 231,
+              "a": 255
+            },
+            "specularFactor": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

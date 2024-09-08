@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6d2f6d56-5932-4308-bad3-6aaec6fb04a9",
+  "files": [],
+  "subMetas": {
+    "50c4d": {
+      "importer": "gltf-mesh",
+      "uuid": "6d2f6d56-5932-4308-bad3-6aaec6fb04a9@50c4d",
+      "displayName": "",
+      "id": "50c4d",
+      "name": "Shredder.002.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 496
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac849": {
+      "importer": "gltf-material",
+      "uuid": "6d2f6d56-5932-4308-bad3-6aaec6fb04a9@ac849",
+      "displayName": "",
+      "id": "ac849",
+      "name": "MM_Shredder.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "288dd": {
+      "importer": "gltf-scene",
+      "uuid": "6d2f6d56-5932-4308-bad3-6aaec6fb04a9@288dd",
+      "displayName": "",
+      "id": "288dd",
+      "name": "SM_Shredder_2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "6d2f6d56-5932-4308-bad3-6aaec6fb04a9@288dd",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "6d2f6d56-5932-4308-bad3-6aaec6fb04a9@50c4d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6d2f6d56-5932-4308-bad3-6aaec6fb04a9@ac849"
+      ],
+      "scenes": [
+        "6d2f6d56-5932-4308-bad3-6aaec6fb04a9@288dd"
+      ]
+    }
+  }
+}

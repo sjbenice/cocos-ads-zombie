@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5c31f471-ac70-45d6-bd08-6975f90924df",
+  "files": [],
+  "subMetas": {
+    "40097": {
+      "importer": "gltf-scene",
+      "uuid": "5c31f471-ac70-45d6-bd08-6975f90924df@40097",
+      "displayName": "",
+      "id": "40097",
+      "name": "MiddleHill.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "19b4a": {
+      "importer": "gltf-mesh",
+      "uuid": "5c31f471-ac70-45d6-bd08-6975f90924df@19b4a",
+      "displayName": "",
+      "id": "19b4a",
+      "name": "Unbreakable2x2RockB.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 274
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bbf4f": {
+      "importer": "gltf-material",
+      "uuid": "5c31f471-ac70-45d6-bd08-6975f90924df@bbf4f",
+      "displayName": "",
+      "id": "bbf4f",
+      "name": "MAT_UnbreakableRock.1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "5c31f471-ac70-45d6-bd08-6975f90924df@40097",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "5c31f471-ac70-45d6-bd08-6975f90924df@19b4a"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5c31f471-ac70-45d6-bd08-6975f90924df@bbf4f"
+      ],
+      "scenes": [
+        "5c31f471-ac70-45d6-bd08-6975f90924df@40097"
+      ]
+    }
+  }
+}

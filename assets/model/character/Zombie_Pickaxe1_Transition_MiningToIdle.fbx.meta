@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "74ce3c4a-ba3a-4b2b-94cf-d7c1fc63ce62",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "cbc2b": {
+      "importer": "gltf-animation",
+      "uuid": "74ce3c4a-ba3a-4b2b-94cf-d7c1fc63ce62@cbc2b",
+      "displayName": "",
+      "id": "cbc2b",
+      "name": "transition_mining.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.46666666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "cec97": {
+      "importer": "gltf-scene",
+      "uuid": "74ce3c4a-ba3a-4b2b-94cf-d7c1fc63ce62@cec97",
+      "displayName": "",
+      "id": "cec97",
+      "name": "Zombie_Pickaxe1_Transition_MiningToIdle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Scene",
+        "duration": 0.46666666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "transition_mining",
+            "from": 0,
+            "to": 0.46666666865348816,
+            "wrapMode": 1,
+            "previousId": "cbc2b"
+          }
+        ]
+      }
+    ],
+    "redirect": "74ce3c4a-ba3a-4b2b-94cf-d7c1fc63ce62@cec97",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "74ce3c4a-ba3a-4b2b-94cf-d7c1fc63ce62@cec97"
+      ]
+    }
+  }
+}

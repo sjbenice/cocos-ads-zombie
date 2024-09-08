@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "56204255-9f42-41f1-b3e2-bab9de040d6b",
+  "files": [],
+  "subMetas": {
+    "bbae8": {
+      "importer": "gltf-mesh",
+      "uuid": "56204255-9f42-41f1-b3e2-bab9de040d6b@bbae8",
+      "displayName": "",
+      "id": "bbae8",
+      "name": "tree.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1210
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e259c": {
+      "importer": "gltf-material",
+      "uuid": "56204255-9f42-41f1-b3e2-bab9de040d6b@e259c",
+      "displayName": "",
+      "id": "e259c",
+      "name": "MM_Tree_Rocks.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e7684": {
+      "importer": "gltf-scene",
+      "uuid": "56204255-9f42-41f1-b3e2-bab9de040d6b@e7684",
+      "displayName": "",
+      "id": "e7684",
+      "name": "SM_Halloween_Tree.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "56204255-9f42-41f1-b3e2-bab9de040d6b@e7684",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "56204255-9f42-41f1-b3e2-bab9de040d6b@bbae8"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "56204255-9f42-41f1-b3e2-bab9de040d6b@e259c"
+      ],
+      "scenes": [
+        "56204255-9f42-41f1-b3e2-bab9de040d6b@e7684"
+      ]
+    }
+  }
+}
